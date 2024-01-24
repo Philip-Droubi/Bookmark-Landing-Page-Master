@@ -5,7 +5,7 @@
     --Soft-Red: hsl(0, 94%, 66%);
     --Grayish-Blue: hsl(229, 8%, 60%);
     --Very-Dark-Blue: hsl(229, 31%, 21%);
-    --button-BG: hsl(0, 0, 97%);
+    --button-BG: hsl(240, 7%, 97%);
     --font-size: 18px;
 }
 
@@ -231,6 +231,7 @@ main .landing .container h1 {
     font-size: 46px;
     margin: 80px 0 0;
     letter-spacing: 0.2px;
+    color: var(--Very-Dark-Blue);
 }
 
 main .landing .container p {
@@ -238,6 +239,7 @@ main .landing .container p {
     font-size: 18px;
     max-width: 536px;
     margin: 21px 0 31px;
+    color: var(--Grayish-Blue);
 }
 
 main .landing .container button {
@@ -248,7 +250,7 @@ main .landing .container button {
 main .landing .container button.firefox {
     margin-left: 12px;
     background-color: var(--button-BG);
-    color: var(--Grayish-Blue);
+    color: var(--Very-Dark-Blue);
     letter-spacing: 0.22px;
 }
 
@@ -260,5 +262,26 @@ main .landing .container button:hover {
 
 main .landing .container button.firefox:hover {
     border: 2px solid var(--Grayish-Blue);
+    color: var(--Grayish-Blue);
+}
+
+main .page-part {
+    margin-top: 113px;
+}
+
+main .page-part .heading {
+    text-align: center;
+}
+
+main .page-part .heading h2 {
+    font-size: 30px;
+    color: var(--Very-Dark-Blue);
+}
+
+main .page-part .heading p {
+    letter-spacing: 0.1px;
+    line-height: 1.6;
+    margin: 24px auto 0;
+    max-width: 540px;
     color: var(--Grayish-Blue);
 }
